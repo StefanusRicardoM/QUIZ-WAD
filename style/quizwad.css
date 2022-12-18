@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(238, 238, 238);
+    background-image: url(https://images.unsplash.com/photo-1490818387583-1baba5e638af?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=732&q=80);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    backdrop-filter: blur(2px);
+}
+#navbar a:hover{
+    background-color: rgb(245, 245, 245);
+}
+#menu {
+    position: relative;
+    left: 5%;
+}
+#peta {
+    position: relative;
+    left: 30%;
+    top: 10%
+}
+
+.modal-dialog{
+    overflow-y: initial !important
+}
+.modal-body{
+    height: 80vh;
+    overflow-y: auto;
+}
